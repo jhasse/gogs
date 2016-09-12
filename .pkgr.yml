@@ -5,6 +5,7 @@ targets:
     dependencies:
       - libpam0g
       - git
+      - hg
 before:
   - mv packager/Procfile .
   - mv packager/.godir .
