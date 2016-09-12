@@ -2,10 +2,10 @@ targets:
   ubuntu-16.04:
     build_dependencies:
       - libpam0g-dev
+      - mercurial
     dependencies:
       - libpam0g
       - git
-      - hg
 before:
   - mv packager/Procfile .
   - mv packager/.godir .
